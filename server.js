@@ -102,6 +102,30 @@ function playAnimalSound(animalName) {
     case "bear":
       sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3'/> " + PAUSE + " <audio src = 'https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3'/>"
       break;
+    case "cat":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_cat_angry_meow_1x_01.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_cat_angry_meow_1x_02.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_cat_angry_screech_1x_01.mp3'/>"
+      break;
+    case "bird":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bird_chickadee_chirps_01.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bird_forest_01.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bird_forest_02.mp3'/>"
+      break;
+    case "crow":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_crow_caw_1x_01.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_crow_caw_1x_01.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_crow_caw_1x_02.mp3'/>"
+      break;
+    case "dog":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_dog_med_bark_1x_02.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_dog_med_bark_1x_02.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_dog_med_bark_1x_02.mp3'/>"
+      break;
+    case "elephant":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_elephant_01.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_elephant_01.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_elephant_01.mp3'/>"
+      break;
+    case "lion":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_lion_roar_02.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_lion_roar_02.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_lion_roar_02.mp3'/>"
+      break;
+    case "rooster":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_rooster_crow_01.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_rooster_crow_01.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_rooster_crow_02.mp3'/>"
+      break;
+    case "wolf":
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_wolf_young_howl_01.mp3'/>" + PAUSE + " <audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_wolf_howl_03.mp3'/>" + PAUSE + "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_wolf_young_howl_01.mp3'/>"
+      break;
     default:
       sound = "Sorry couldnt find the sound of" + animalName
       tempSpeechOutput = ""
