@@ -100,7 +100,7 @@ function playAnimalSound(animalName) {
   var sound = ''
   switch (animalName) {
     case "bear":
-      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3'/> " + PAUSE + " <audio src = 'https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3' / > "
+      sound = "<audio src='https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3'/> " + PAUSE + " <audio src = 'https://s3.amazonaws.com/ask-soundlibrary/animals/amzn_sfx_bear_groan_roar_01.mp3'/>"
       break;
     default:
       sound = "Sorry couldnt find the sound of" + animalName
