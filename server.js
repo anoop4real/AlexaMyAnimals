@@ -50,10 +50,11 @@ app.post('/myanimals', requestVerifier, function(req, res) {
     switch (req.body.request.intent.name) {
       case 'PlayAnimalSound':
         if (!req.body.request.intent.slots.AnimalName || !req.body.request.intent.slots.AnimalName.value) {
+
+          res.json(playAnimalSound(''));
+        } else {
           const value = req.body.request.intent.slots.AnimalName.value
           res.json(playAnimalSound(value));
-        } else {
-          res.json(playAnimalSound(''));
         }
 
         break;
