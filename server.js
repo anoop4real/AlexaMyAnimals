@@ -157,13 +157,6 @@ function playAnimalSound(animalName) {
       "content": "Welcome to myanimals",
       "text": "Welcome to myanimals"
     },
-    "reprompt": {
-      "outputSpeech": {
-        "type": "PlainText",
-        "text": more,
-        "ssml": more
-      }
-    },
   }
 
   return jsonObj;
