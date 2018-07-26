@@ -139,7 +139,7 @@ function playAnimalSound(animalName) {
   var jsonObj = {
     "version": "1.0",
     "response": {
-      "shouldEndSession": false,
+      "shouldEndSession": true,
       "outputSpeech": {
         "type": "SSML",
         "ssml": speechOutput
