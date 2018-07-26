@@ -17,12 +17,12 @@ const PAUSE = '<break time="0.3s" />'
 const WHISPER = '<amazon:effect name="whispered"/>'
 var isFisrtTime = true
 
-app.pre = function(req, res, type) {
-  if (type === 'SessionEndedRequest') {
-    res.send('').shouldEndSession(true);
-    return true;
-  }
-}
+// app.pre = function(req, res, type) {
+//   if (type === 'SessionEndedRequest') {
+//     res.send('').shouldEndSession(true);
+//     return true;
+//   }
+// }
 
 app.use(bodyParser.json({
   verify: function getRawBody(req, res, buf) {
