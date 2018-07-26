@@ -59,9 +59,6 @@ app.post('/myanimals', requestVerifier, function(req, res) {
 
         break;
 
-      case 'AMAZON.StopIntent':
-        res.json(stopAndExit());
-        break;
       case 'AMAZON.HelpIntent':
         res.json(help());
         break;
